@@ -1,0 +1,82 @@
+body {
+	font-family: Verdana;
+	width: 90%;
+	margin-left: 5%;
+
+}
+
+header {
+	padding: 1vh 1vw;
+	margin-bottom: 1vh;
+}
+
+#contenido{
+	margin: 1%;
+	text-align: center;
+}
+
+header h1 {
+	padding-left: 1%;
+	font-size: 1.5em;
+}
+
+footer {
+	font-size: 0.8em;
+	border-top: solid 2px #7debd3;
+	padding-top: 1vw;
+	margin-top: 1vw;
+	text-align: center;
+}
+
+.adaptativa-porcentaje{
+	width:90%;
+	border-radius: 5px;
+}
+
+.adaptativa-porcentaje-1{
+	width: 70%;
+	border-radius: 5px;
+}
+
+.adaptativa-porcentaje-2{
+	width: 50%;
+}
+
+.adaptativa-porcentaje-3{
+	width: 20%;
+	border-radius: 5px;
+}
+
+@media (max-width: 600px) {   /*Ocultamos la imagen cafe(la primera)*/
+	.adaptativa-porcentaje{
+	display: none;
+	}
+}
+
+@media (max-width: 600px) {   
+	.cambio_color{
+		font-size: 16px;
+		color: rgb(112, 230, 195);
+	}
+}
+
+
+
+@media (min-width: 600px) {   
+	.cambio_color{
+		font-size: 16px;
+		color: red;
+	}
+}
+
+
+@media (min-width: 900px) {   
+	.cambio_color{
+		font-size: 14px;
+		color: black;
+	}
+}
+	
+
+
+
